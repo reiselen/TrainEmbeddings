@@ -16,12 +16,12 @@ Ensure that all required libraries for the different architectures are installed
 `pip install -r requirements.txt`
 
 ## Usage
-Run the python wrapper specifying the specific config with the relevant settings. More details on specific configuration settings are provided below
+Run the python wrapper specifying the specific config with the relevant settings. More details on specific configuration settings are provided below.
 
 `python trainer_cli.py -c ./example_configs/af_config_linux.json`
 
 ## Configuration settings
-The following list most of the most important settings that can be set in the configuration
+The following sections list the most important settings that can be set in the configuration file.
 All values available to the respective models can be found on the main sites for each of the algorithms, and additional settings can be added to the configuration as long as the parameter name is identical to those specified in the architecture documentation.
 
 ### Main options
