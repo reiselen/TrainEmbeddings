@@ -8,7 +8,7 @@
  - [RoBERTa](https://github.com/huggingface/transformers)
  - [ELMO](https://github.com/allenai/bilm-tf)
 
-The wrapper is currently designed to train multiple models for multiple languages based on a config file. Example config files are available in the [example_configs](https://github.com/reiselen/TrainEmbeddings/example_configs) folder.
+The wrapper is currently designed to train multiple models for multiple languages based on a config file. Example config files are available in the [example_configs](https://github.com/reiselen/TrainEmbeddings/tree/main/example_configs) folder.
 
 ## Requirements
 Ensure that all required libraries for the different architectures are installed.
@@ -120,7 +120,7 @@ Continuous bag of words model for word2vec algorithm.
     "pretrained_model": Path to an existing pretrained model
 ```
 ### [elmo](https://github.com/allenai/bilm-tf)
-Elmo has an entire separate jsonett file specifying the specific configuration. This can be found in [trainers/configs](https://github.com/reiselen/TrainEmbeddings/trainers/configs)
+Elmo has an entire separate jsonett file specifying the specific configuration. This can be found in [trainers/configs](https://github.com/reiselen/TrainEmbeddings/tree/main/trainers/configs)
 ```
     "config_file": "./trainers/configs/bidirectional_language_model.jsonnet"
 ```
